@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "93d3fe99-6371-41fe-b7e9-4897528fa995",
+  "path": "weapp-mcp-testing",
+  "path_key": "weapp-mcp-testing",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

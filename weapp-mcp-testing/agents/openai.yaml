@@ -1,0 +1,7 @@
+interface:
+  display_name: "WeChat MCP Testing"
+  short_description: "Use MCP to connect WeChat DevTools and run Mini Program page tests."
+  default_prompt: "Use $weapp-mcp-testing to connect to WeChat DevTools through MCP and run page-level Mini Program tests."
+
+policy:
+  allow_implicit_invocation: true

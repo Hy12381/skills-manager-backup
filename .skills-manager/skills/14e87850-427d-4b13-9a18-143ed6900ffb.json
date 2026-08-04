@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "14e87850-427d-4b13-9a18-143ed6900ffb",
+  "path": "scipilot-figure-skill",
+  "path_key": "scipilot-figure-skill",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}
