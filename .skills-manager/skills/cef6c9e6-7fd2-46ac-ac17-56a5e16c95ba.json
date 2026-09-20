@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "cef6c9e6-7fd2-46ac-ac17-56a5e16c95ba",
+  "path": "presentation-skill",
+  "path_key": "presentation-skill",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "siril9/presentation-skill/presentation-skill",
+    "subpath": "plugins\\presentation-skill\\skills\\presentation-skill",
+    "branch": null
+  }
+}

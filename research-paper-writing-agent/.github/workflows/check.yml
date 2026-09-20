@@ -1,0 +1,28 @@
+name: Check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  open-source-check:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Run content quality checks
+        shell: pwsh
+        run: powershell -ExecutionPolicy Bypass -File .\tests\check-content-quality.ps1
+
+      - name: Run skill contract checks
+        shell: pwsh
+        run: powershell -ExecutionPolicy Bypass -File .\tests\check-skill-contract.ps1
+
+      - name: Run workflow behavior checks
+        shell: pwsh
+        run: powershell -ExecutionPolicy Bypass -File .\tests\check-workflows.ps1
+
+      - name: Run open-source package check
+        shell: pwsh
+        run: powershell -ExecutionPolicy Bypass -File .\tests\check-open-source.ps1

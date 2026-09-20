@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "552ead9a-e099-4b3b-b575-dfb95fcd900a",
+  "path": "research-paper-writing-agent",
+  "path_key": "research-paper-writing-agent",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "yejin233/research-paper-writing-agent-skill/research-paper-writing-agent",
+    "subpath": null,
+    "branch": null
+  }
+}
