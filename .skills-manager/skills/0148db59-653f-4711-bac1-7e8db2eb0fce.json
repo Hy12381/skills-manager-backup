@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "0148db59-653f-4711-bac1-7e8db2eb0fce",
+  "path": "nature-response",
+  "path_key": "nature-response",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "yuan1z0825/nature-skills/nature-response",
+    "subpath": "skills\\nature-response",
+    "branch": null
+  }
+}

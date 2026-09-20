@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "97b15e46-ae2a-43ea-aac6-4122a9ca32c6",
+  "path": "nature-image2ppt",
+  "path_key": "nature-image2ppt",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "yuan1z0825/nature-skills/nature-image2ppt",
+    "subpath": "skills\\nature-image2ppt",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "4fa4abb4-780e-415a-bb24-bb7e0fbe7695",
+  "path": "nature-writing",
+  "path_key": "nature-writing",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "yuan1z0825/nature-skills/nature-writing",
+    "subpath": "skills\\nature-writing",
+    "branch": null
+  }
+}

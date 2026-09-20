@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5f1f4d6a-7844-4654-9d6e-08da1f9a9661",
+  "path": "nature-reviewer",
+  "path_key": "nature-reviewer",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "yuan1z0825/nature-skills/nature-reviewer",
+    "subpath": "skills\\nature-reviewer",
+    "branch": null
+  }
+}

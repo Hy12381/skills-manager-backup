@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "de245ce4-0448-4cdf-8f96-10d144449b58",
+  "path": "nature-shared",
+  "path_key": "nature-shared",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "yuan1z0825/nature-skills/nature-shared",
+    "subpath": "skills\\nature-shared",
+    "branch": null
+  }
+}

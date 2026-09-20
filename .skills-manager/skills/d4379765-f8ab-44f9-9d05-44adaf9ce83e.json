@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d4379765-f8ab-44f9-9d05-44adaf9ce83e",
+  "path": "nature-academic-search",
+  "path_key": "nature-academic-search",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "yuan1z0825/nature-skills/nature-academic-search",
+    "subpath": "skills\\nature-academic-search",
+    "branch": null
+  }
+}

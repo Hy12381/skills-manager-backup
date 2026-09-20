@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a4f068f2-1dc5-41ff-9373-fdd0c030f43c",
+  "path": "nature-paper-card",
+  "path_key": "nature-paper-card",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "yuan1z0825/nature-skills/nature-paper-card",
+    "subpath": "skills\\nature-paper-card",
+    "branch": null
+  }
+}
