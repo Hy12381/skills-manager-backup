@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "be547583-b14b-4786-b2e6-2837cdc9e54e",
+  "path": "intro-drafter",
+  "path_key": "intro-drafter",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

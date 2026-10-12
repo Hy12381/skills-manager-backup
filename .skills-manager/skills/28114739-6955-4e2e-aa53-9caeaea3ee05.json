@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "28114739-6955-4e2e-aa53-9caeaea3ee05",
+  "path": "paper-writer",
+  "path_key": "paper-writer",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

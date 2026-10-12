@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d38acbcf-d2f3-402e-adfc-5132880e4f71",
+  "path": "tech-paper-template",
+  "path_key": "tech-paper-template",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

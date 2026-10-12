@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "4e61144a-8a89-47e2-9e23-5ca5c4b5d44b",
+  "path": "idea-evaluator",
+  "path_key": "idea-evaluator",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

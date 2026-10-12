@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "47480da9-dc63-4366-a958-e1601b0b12d5",
+  "path": "figure-designer",
+  "path_key": "figure-designer",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

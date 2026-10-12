@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b8c9637d-ef37-4070-8563-9271c6df774b",
+  "path": "pre-submission-reviewer",
+  "path_key": "pre-submission-reviewer",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

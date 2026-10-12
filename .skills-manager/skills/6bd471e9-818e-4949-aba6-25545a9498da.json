@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "6bd471e9-818e-4949-aba6-25545a9498da",
+  "path": "rebuttal-guidance",
+  "path_key": "rebuttal-guidance",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

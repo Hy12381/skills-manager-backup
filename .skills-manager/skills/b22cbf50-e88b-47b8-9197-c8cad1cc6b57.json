@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b22cbf50-e88b-47b8-9197-c8cad1cc6b57",
+  "path": "benchmark-paper-template",
+  "path_key": "benchmark-paper-template",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}
