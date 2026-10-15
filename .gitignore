@@ -4,3 +4,8 @@ Thumbs.db
 .skills-manager.lock
 __pycache__/
 *.pyc
+
+# skills-manager: oversized skills excluded from backup (auto-managed)
+/norman-paper-reading/
+/.skills-manager/skills/e1259f70-fee1-4778-b2fc-6fca26b76dc1.json
+# skills-manager: end oversized skills
