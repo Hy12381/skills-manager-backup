@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c039c782-dd07-41cc-a12f-0e6eea4adeb3",
+  "path": "humanizer-zh",
+  "path_key": "humanizer-zh",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/op7418/Humanizer-zh.git",
+    "subpath": null,
+    "branch": null
+  }
+}

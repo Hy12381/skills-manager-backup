@@ -6,9 +6,9 @@
   "enabled": true,
   "tags": [],
   "source": {
-    "type": "import",
-    "ref": null,
-    "subpath": null,
-    "branch": null
+    "type": "git",
+    "ref": "https://github.com/openai/skills/tree/main/skills/.curated/openai-docs",
+    "subpath": "skills/.curated/openai-docs",
+    "branch": "main"
   }
 }

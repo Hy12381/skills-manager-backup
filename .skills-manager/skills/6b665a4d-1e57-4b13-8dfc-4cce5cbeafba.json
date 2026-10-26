@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "6b665a4d-1e57-4b13-8dfc-4cce5cbeafba",
+  "path": "academic-humanizer",
+  "path_key": "academic-humanizer",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/AIScientists-Dev/academic-humanizer.git",
+    "subpath": null,
+    "branch": null
+  }
+}

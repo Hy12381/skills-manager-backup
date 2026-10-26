@@ -6,9 +6,9 @@
   "enabled": true,
   "tags": [],
   "source": {
-    "type": "import",
-    "ref": null,
-    "subpath": null,
-    "branch": null
+    "type": "git",
+    "ref": "https://github.com/kkkkhazix/khazix-skills/tree/main/neat-freak",
+    "subpath": "neat-freak",
+    "branch": "main"
   }
 }

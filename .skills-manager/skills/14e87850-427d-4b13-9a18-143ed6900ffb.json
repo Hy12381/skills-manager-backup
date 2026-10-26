@@ -6,8 +6,8 @@
   "enabled": true,
   "tags": [],
   "source": {
-    "type": "import",
-    "ref": null,
+    "type": "git",
+    "ref": "https://github.com/Haojae/scipilot-figure-skill.git",
     "subpath": null,
     "branch": null
   }
