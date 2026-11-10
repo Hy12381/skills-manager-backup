@@ -1,0 +1,7 @@
+interface:
+  display_name: "论文版式与可跳转引用"
+  short_description: "按学校或期刊要求整理论文版式，建立文献与图表跳转并核验Word和PDF"
+  default_prompt: "使用 $academic-paper-layout 整理论文版式与文献、图表的可跳转引用；字体字号按本次要求，保留正文与研究数据。"
+
+policy:
+  allow_implicit_invocation: true

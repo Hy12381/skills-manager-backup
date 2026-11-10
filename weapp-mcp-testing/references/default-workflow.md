@@ -1,114 +1,28 @@
-# Default WeChat DevTools MCP Workflow
+# Runtime discovery and version-pair diagnostics
 
-## Default baseline
+## First checks
 
-- MCP service: `weixin-devtools-mcp`
-- Default project: `E:\dcl`
-- Default CLI: `D:\zjiusuanji\vxxiaochengx\vxweb\cli.bat`
-- Default HTTP port: `9420`
-- Default automator port: `9430`
-- Global config: `C:\Users\86132\.codex\config.toml`
+Read the current project's automation settings and test scripts. Verify the intended AppID and source root. Discover the CLI HTTP port (for older Windows installations: LOCALAPPDATA/微信开发者工具/User Data/<profile>/Default/.ide). The automator WebSocket port is separately configured. Compare getAccountInfoSync().miniProgram.appId to the project's AppID before reusing a connection.
 
-If the user provides different values for a new project, switch to those values and state the override explicitly.
+Use an absolute Node path and existing server entry in stdio MCP config. On Windows, Node 22 cannot reliably spawn a .bat as a direct executable; use the installed CLI's supported launcher or a correctly quoted native PowerShell invocation. Do not force a different HTTP port if the current IDE is already running.
 
-## Preferred source of truth
+## Verified observations from 2026-10-27 (examples, not universal requirements)
 
-When both of these exist:
+In E:/桌面图标/vx, Stable 2.01.2510280 with base library 3.17.5 answered App/Tool calls but Page.getData and element queries hung. A controlled test of the componentFramework setting did not fix it and was reverted. The cached library 3.15.3 restored page data, element queries and native screenshots. That pairing is a local compatibility baseline, not a recommended forever-version or a restriction on newer IDEs.
 
-- a repo-local adapter such as `tools/weixin-devtools-mcp-modern/`
-- a public MCP package or npm install hint
+The local 3.16.2/3.17.5 packages no longer contained the old full WAAutoService/WAAutoWebview implementation; this is evidence for the local mismatch, not proof of incompatibility on every installation. After upgrading DevTools, re-test a modern base library before removing a working compatibility pin.
 
-prefer the repo-local adapter if the project already uses it successfully. Do not switch to a public package unless the user explicitly wants to replace the adapter.
+The weixin-devtools-mcp 0.6.0 network collector's mock hook made wx.request return {uniqueId} instead of the HTTP result in that pairing. The project wrapper disables that collector unless WEAPP_MCP_NETWORK_MONITOR=1; console/page/click/assertion/screenshot tools remain available. Verify network transparency before enabling it. Text locators in that pairing also attempted an invalid wx-* selector; use native CSS selectors and assert_text instead.
 
-## Validation order
+## vx project commands
 
-1. Verify `config.toml` points `weixin-devtools-mcp` at the intended server.
-2. Verify the CLI path exists.
-3. Verify the project path exists.
-4. Verify WeChat DevTools is logged in and service-port related settings are enabled.
-5. Run connection checks:
-   - `connect_devtools`
-   - `get_connection_status`
-   - `get_current_page`
-6. Run page smoke checks:
-   - `get_page_snapshot`
-   - element lookup
-   - `input_text`
-   - `click`
-   - `waitFor`
-   - `assert_*`
-7. Run role-based flows:
-   - student
-   - manager
-   - admin
+- npm run test:mcp:connect: reads weapp.automation.json, discovers/reuses the matching logged-in project and probes real Page data.
+- npm run test:mcp:flows: drives the maintained stdio MCP server and verifies a real simulator form/recommendation/details flow with screenshots.
+- npm run test:weapp: backwards-compatible entry point for the same verified MCP regression; connection preparation still probes native automator Page data.
+- npm run test:weapp-logic: mocked WeChat host; it is not simulator rendering evidence.
 
-## Failure triage
+Use the project's current files as truth if paths or versions change. Do not copy these settings into unrelated projects.
 
-### `not-connected`
+## Official IDE update performed in this session
 
-- MCP server not loaded
-- config points to the wrong server path
-- current client session has stale tools after a config change
-
-Action:
-- verify `config.toml`
-- restart the client if config changed
-
-### `project-open-failed`
-
-- wrong CLI path
-- wrong project path
-- DevTools rejected or could not open the project
-
-Action:
-- verify path existence
-- verify DevTools login
-- verify the project can be opened by the current CLI
-
-### `automator-disconnected`
-
-- bridge session dropped
-- automator port changed or is unavailable
-
-Action:
-- reconnect once in a controlled way
-- then re-run `get_current_page` and a minimal page smoke step
-
-### `page-transition-timeout`
-
-- route jump never completed
-- current page is blocked by a modal or login state
-
-Action:
-- verify current route
-- verify whether the last action actually succeeded
-- prefer reopening the expected page instead of chaining more clicks blindly
-
-### `element-not-found`
-
-- snapshot is stale
-- wrong page
-- selector assumptions do not match the rendered tree
-
-Action:
-- refresh page snapshot
-- inspect visible nodes first
-
-### `assertion-failed`
-
-- page data or UI did not reach expected state
-- could be a product bug, not an MCP bug
-
-Action:
-- distinguish whether the action failed to fire, or the business state is wrong after a successful action
-
-## Recommended response pattern
-
-When reporting results, structure them as:
-
-1. connection status
-2. page-level status
-3. business-flow status
-4. concrete failing step, if any
-
-This keeps MCP issues separate from mini program defects.
+On 2026-10-27 the user explicitly authorized updates. Official Stable 2.02.2609240 was installed alongside the old IDE in D:/zjiusuanji/vxxiaochengx/vxweb-2026; signature and native window version verified. It includes wechatide.cmd and built-in skill0.3.11. Its first-run CLI service port is disabled. Do not report the new native automation flow as passed until the user enables the documented setting and the regression succeeds. The current project config restores library3.17.5 for the new IDE. See the current project's docs/WECHAT-AUTOMATION.md and weapp.automation.json; these paths are historical examples, not defaults.

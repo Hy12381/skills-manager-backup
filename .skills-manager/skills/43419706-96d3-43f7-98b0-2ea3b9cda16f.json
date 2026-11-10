@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "43419706-96d3-43f7-98b0-2ea3b9cda16f",
+  "path": "vx-miniprogram-dev",
+  "path_key": "vx-miniprogram-dev",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

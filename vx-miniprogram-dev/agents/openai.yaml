@@ -1,0 +1,6 @@
+interface:
+  display_name: "vx 微信小程序开发"
+  short_description: "仅在 vx 项目开发微信小程序时，按需调用开发、AI Skills、支付与验证能力"
+  default_prompt: "使用 $vx-miniprogram-dev 按当前需求开发并验证 vx 微信小程序。"
+policy:
+  allow_implicit_invocation: true

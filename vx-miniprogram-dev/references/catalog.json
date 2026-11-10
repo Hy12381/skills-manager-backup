@@ -1,0 +1,117 @@
+{
+  "downloadedAt": "2026-10-27",
+  "repositories": [
+    {
+      "key": "cloudbase-skills",
+      "repo": "TencentCloudBase/skills",
+      "root": "C:/Users/86132/.skills-manager/skill-sources/vx-miniprogram/repos/cloudbase-skills",
+      "revision": "0754713de71d41be4299a21fbf7aa2a08c338db4",
+      "branch": "main",
+      "skills": [
+        "skills/ai-model-nodejs/SKILL.md",
+        "skills/ai-model-web/SKILL.md",
+        "skills/ai-model-wechat/SKILL.md",
+        "skills/auth-nodejs-cloudbase/SKILL.md",
+        "skills/auth-tool-cloudbase/SKILL.md",
+        "skills/auth-web-cloudbase/SKILL.md",
+        "skills/auth-wechat-miniprogram/SKILL.md",
+        "skills/cloud-api-operations/SKILL.md",
+        "skills/cloud-functions/SKILL.md",
+        "skills/cloud-storage-web/SKILL.md",
+        "skills/cloudbase/SKILL.md",
+        "skills/cloudbase-agent/SKILL.md",
+        "skills/cloudbase-cli/SKILL.md",
+        "skills/cloudbase-code-review/SKILL.md",
+        "skills/cloudbase-declarative-deploy/SKILL.md",
+        "skills/cloudbase-document-database-in-wechat-miniprogram/SKILL.md",
+        "skills/cloudbase-document-database-web-sdk/SKILL.md",
+        "skills/cloudbase-mcp/SKILL.md",
+        "skills/cloudbase-platform/SKILL.md",
+        "skills/cloudbase-wechat-integration/SKILL.md",
+        "skills/cloudrun-development/SKILL.md",
+        "skills/data-model-creation/SKILL.md",
+        "skills/http-api-cloudbase/SKILL.md",
+        "skills/minimal-web-baas-demo/SKILL.md",
+        "skills/miniprogram-development/SKILL.md",
+        "skills/ops-inspector/SKILL.md",
+        "skills/postgresql-best-practices-cloudbase/SKILL.md",
+        "skills/postgresql-development-cloudbase/SKILL.md",
+        "skills/relational-database-mcp-cloudbase/SKILL.md",
+        "skills/relational-database-web-cloudbase/SKILL.md",
+        "skills/spec-workflow/SKILL.md",
+        "skills/ui-design/SKILL.md",
+        "skills/web-development/SKILL.md"
+      ]
+    },
+    {
+      "key": "mp-skills",
+      "repo": "TencentCloudBase/mp-skills",
+      "root": "C:/Users/86132/.skills-manager/skill-sources/vx-miniprogram/repos/mp-skills",
+      "revision": "5c38606be3d9218ad71f9bd388683ddc9fd63657",
+      "branch": "main",
+      "skills": [
+        "skills/wxa-ai-mode-dev/SKILL.md",
+        "skills/wxa-create-ai-miniprogram/SKILL.md",
+        "skills/wxa-create-mp-skill/SKILL.md",
+        "skills/wxa-find-skills/SKILL.md",
+        "templates/base/miniprogram/skills/greet-skill/SKILL.md",
+        "templates/skill-skeleton/SKILL.md"
+      ]
+    },
+    {
+      "key": "ai-mode-skills",
+      "repo": "wechat-miniprogram/ai-mode-skills",
+      "root": "C:/Users/86132/.skills-manager/skill-sources/vx-miniprogram/repos/ai-mode-skills",
+      "revision": "9bd1f25a7051ff137206f15251f716536f8409e9",
+      "branch": "master",
+      "skills": [
+        "wxa-skills-eval/SKILL.md",
+        "wxa-skills-generate/SKILL.md",
+        "wxa-skills-validate/SKILL.md"
+      ]
+    },
+    {
+      "key": "awesome-miniprogram-skills",
+      "repo": "TencentCloudBase/awesome-miniprogram-skills",
+      "root": "C:/Users/86132/.skills-manager/skill-sources/vx-miniprogram/repos/awesome-miniprogram-skills",
+      "revision": "72523cad942a7d80de53646c3f1b7c367f0bc80b",
+      "branch": "main",
+      "skills": [
+        "skills/bill-skill/SKILL.md",
+        "skills/hospital-skill/SKILL.md",
+        "skills/image-edit-skill/SKILL.md",
+        "skills/image-gen-skill/SKILL.md",
+        "skills/order-skill/SKILL.md",
+        "skills/party-skill/SKILL.md",
+        "skills/payment-skill/SKILL.md",
+        "skills/queue-skill/SKILL.md",
+        "skills/shopping-skill/SKILL.md",
+        "skills/taxi-skill/SKILL.md",
+        "skills/text-gen-skill/SKILL.md",
+        "skills/todolist-skill/SKILL.md",
+        "skills/travel-skill/SKILL.md",
+        "skills/water-tracker/SKILL.md"
+      ]
+    },
+    {
+      "key": "wechatpay-skills",
+      "repo": "wechatpay-apiv3/wechatpay-skills",
+      "root": "C:/Users/86132/.skills-manager/skill-sources/vx-miniprogram/repos/wechatpay-skills",
+      "revision": "039b0ae50d6b5d4631be8ea991155f8a7958a2d9",
+      "branch": "main",
+      "skills": [
+        "wechatpay-payment-integration/SKILL.md"
+      ]
+    },
+    {
+      "key": "launch-wechat-miniprogram",
+      "repo": "niuhuoshan/launch-wechat-miniprogram",
+      "root": "C:/Users/86132/.skills-manager/skill-sources/vx-miniprogram/repos/launch-wechat-miniprogram",
+      "revision": "36d931ddc01b95f72a6c0eb2ea7d2bedf1990205",
+      "branch": "main",
+      "skills": [
+        "SKILL.md"
+      ]
+    }
+  ]
+}

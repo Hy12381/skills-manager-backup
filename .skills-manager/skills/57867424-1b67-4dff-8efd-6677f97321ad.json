@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "57867424-1b67-4dff-8efd-6677f97321ad",
+  "path": "academic-paper-layout",
+  "path_key": "academic-paper-layout",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}
