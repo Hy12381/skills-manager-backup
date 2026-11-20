@@ -1,0 +1,6 @@
+interface:
+  display_name: "提示词完善（当前模型）"
+  short_description: "Clarify requests, show the rewrite, then execute"
+  default_prompt: "使用 $prompt-optimizer-native 整理我的需求，先展示完善后的中文提示词，再按原任务继续执行。"
+policy:
+  allow_implicit_invocation: true
